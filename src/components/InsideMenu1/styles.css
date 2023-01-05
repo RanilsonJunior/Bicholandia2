@@ -5,7 +5,7 @@
 
 /* Início do Menu1 */
 a {
-    color: var(--Branco);
+    color: var(--Branco) !important;
     text-decoration: none;
     transition: 0.3;
 }

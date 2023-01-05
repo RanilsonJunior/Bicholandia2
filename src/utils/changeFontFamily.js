@@ -1,7 +1,7 @@
-// change font family Nunito Sans-Serif for button
+// change font family Segoe UI Sans-Serif for button
 export function nunito() {
   let body = document.querySelector('body');
-  body.style.fontFamily = 'Nunito';
+  body.style.fontFamily = 'Segoe UI';
 }
 // change font family Open Dyslexic for button
 export function openDyslexic() {
