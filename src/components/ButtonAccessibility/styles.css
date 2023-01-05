@@ -1,0 +1,27 @@
+/* Início das Cores */
+:root {
+  --Branco: #fff;
+  --azulMarinho: rgba(115, 103, 240, 0.1);
+  --cinzaClaro: #b3b4bf;
+  --roxoClaro: #8176f2;
+}
+/* Final das Cores */
+
+button.btn-font {
+  width: 80px;
+  color: var(--cinzaClaro);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--azulMarinho);
+  padding: 0.3rem 0.2rem;
+  font-size: 0.85rem;
+  margin: 20px 5px 20px 5px;
+  align-items: flex-start;
+}
+
+button.btn-font:hover {
+  background-color: var(--roxoClaro);
+  color: var(--Branco);
+}
+
+/* Final do Menu2 */

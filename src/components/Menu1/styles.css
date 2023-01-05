@@ -1,0 +1,18 @@
+:root {
+    --Azul: #00a3b4;
+}
+
+/* Início do Menu1 */
+.menu1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--Azul);
+    height: 12vh;
+    align-items: center;
+    width: 100%;
+    z-index: 700;
+}
+/* Final do Menu1 */
