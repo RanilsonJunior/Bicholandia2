@@ -9,6 +9,7 @@ import SlidShow from './components/SlidShow';
 import { MaisVendidos } from './components/MaisVendidos';
 import { SlideLogo } from './components/SlideLogo';
 import { Footer } from './components/Footer';
+import { BackToTopButton } from './components/BackToTopButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,5 +20,6 @@ root.render(
     <MaisVendidos />
     <SlideLogo />
     <Footer />
+    <BackToTopButton />
   </React.StrictMode>,
 );
