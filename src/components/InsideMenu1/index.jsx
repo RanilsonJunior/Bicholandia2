@@ -8,8 +8,8 @@ export const InsideMenu = () => {
       </a>
       <ul className="nav-list">
         <div className="boxSearch">
-          <button className="search" type="search"></button>
-          <i className="fa-solid fa-magnifying-glass" onClick="teste()"></i>
+          <button className="search" type="search" />
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
         <li>
           <a href="/login.html">

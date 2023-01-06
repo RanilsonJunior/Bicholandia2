@@ -18,3 +18,21 @@
   font-family: OpenDyslexic-Regular;
   src: url(/src/Font/OpenDyslexic-Regular.otf);
 }
+
+/*Inicio da barra de rolagem*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*Fim da barra de rolagem*/
