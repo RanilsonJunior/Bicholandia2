@@ -1,25 +1,53 @@
 import './styles.css';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { ButtonAccessibility } from '../ButtonAccessibility';
 import { nunito, openDyslexic, tahoma } from '../../utils/changeFontFamily';
-import {
-  menu2CachorroAbrir,
-  menu2CachorroFechar,
-  menu2GatoAbrir,
-  menu2GatoFechar,
-  menu2CoelhoAbrir,
-  menu2CoelhoFechar,
-  menu2BrinquedoAbrir,
-  menu2BrinquedoFechar,
-} from '../../utils/OpenAndCloseMenu2';
 // import { Range } from '../Range';
 
 export const InsideMenu2 = () => {
   const [reverse, setReverse] = useState(false);
   const [reverse2, setReverse2] = useState(false);
-
   const reverseClass = reverse ? ' ativo' : '';
   const reverseClass2 = reverse2 ? ' ativo' : '';
+
+  const menu2Cachorro = useRef();
+  const menu2Gato = useRef();
+  const menu2Coelho = useRef();
+  const menu2Bringuedo = useRef();
+  // --------------------------------------------------
+
+  const menu2CachorroAbrir = () => {
+    menu2Cachorro.current.classList.add('ativo');
+  };
+
+  const menu2CachorroFechar = () => {
+    menu2Cachorro.current.classList.remove('ativo');
+  };
+
+  const menu2GatoAbrir = () => {
+    menu2Gato.current.classList.add('ativo');
+  };
+
+  const menu2GatoFechar = () => {
+    menu2Gato.current.classList.remove('ativo');
+  };
+
+  const menu2CoelhoAbrir = () => {
+    menu2Coelho.current.classList.add('ativo');
+  };
+
+  const menu2CoelhoFechar = () => {
+    menu2Coelho.current.classList.remove('ativo');
+  };
+
+  const menu2BrinquedoAbrir = () => {
+    menu2Bringuedo.current.classList.add('ativo');
+  };
+
+  const menu2BrinquedoFechar = () => {
+    menu2Bringuedo.current.classList.remove('ativo');
+  };
+  // ---------------------------------------------------
 
   const handleClick = () => {
     setReverse(!reverse);
@@ -58,7 +86,12 @@ export const InsideMenu2 = () => {
           </a>
         </li>
       </div>
-      <div className={'menu2-cachorro'} onMouseEnter={menu2CachorroAbrir} onMouseLeave={menu2CachorroFechar}>
+      <div
+        ref={menu2Cachorro}
+        className={'menu2-cachorro'}
+        onMouseEnter={menu2CachorroAbrir}
+        onMouseLeave={menu2CachorroFechar}
+      >
         <li>
           <a href="#">Cachorro</a>
         </li>
@@ -72,7 +105,7 @@ export const InsideMenu2 = () => {
           <a href="#">Cachorro</a>
         </li>
       </div>
-      <div className="menu2-gato" onMouseEnter={menu2GatoAbrir} onMouseLeave={menu2GatoFechar}>
+      <div ref={menu2Gato} className="menu2-gato" onMouseEnter={menu2GatoAbrir} onMouseLeave={menu2GatoFechar}>
         <li>
           <a href="/produto.html">Ração</a>
         </li>
@@ -86,7 +119,7 @@ export const InsideMenu2 = () => {
           <a href="#">Gato</a>
         </li>
       </div>
-      <div className="menu2-coelho" onMouseEnter={menu2CoelhoAbrir} onMouseLeave={menu2CoelhoFechar}>
+      <div ref={menu2Coelho} className="menu2-coelho" onMouseEnter={menu2CoelhoAbrir} onMouseLeave={menu2CoelhoFechar}>
         <li>
           <a href="#">Coelho</a>
         </li>
@@ -100,7 +133,12 @@ export const InsideMenu2 = () => {
           <a href="#">Coelho</a>
         </li>
       </div>
-      <div className="menu2-brinquedo" onMouseEnter={menu2BrinquedoAbrir} onMouseLeave={menu2BrinquedoFechar}>
+      <div
+        ref={menu2Bringuedo}
+        className="menu2-brinquedo"
+        onMouseEnter={menu2BrinquedoAbrir}
+        onMouseLeave={menu2BrinquedoFechar}
+      >
         <li>
           <a href="#">Brinquedo</a>
         </li>

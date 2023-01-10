@@ -5,15 +5,16 @@
 
 main > h3 {
   margin: 2rem 2rem 0rem 2rem;
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .linha {
   margin-left: 2rem;
   margin-bottom: 2rem;
   border: 0.2rem solid var(--Azul);
-  width: 150px;
+  width: 10% !important;
   border-radius: 1rem;
+  background-color: var(--Azul);
 }
 
 .slider {
