@@ -1,13 +1,13 @@
 import './styles.css';
 
-import logoRoyalCanin from '../../imgs/slide-logo/logo-royal-canin.png';
-import logoPremier from '../../imgs/slide-logo/logo-premier.png';
-import logoPedigree from '../../imgs/slide-logo/logo-pedigree.png';
-import logoProPlan from '../../imgs/slide-logo/logo-pro-plan.png';
-import logoGranPlus from '../../imgs/slide-logo/logo-gran-plus.png';
-import logoHills from '../../imgs/slide-logo/logo-hills.png';
-import logoOrigemNatural from '../../imgs/slide-logo/logo-origem-natural.png';
-import logoEquilibrio from '../../imgs/slide-logo/logo-equilibrio.png';
+import logoRoyalCanin from '../../imagens/slide-logo/logo-royal-canin.png';
+import logoPremier from '../../imagens/slide-logo/logo-premier.png';
+import logoPedigree from '../../imagens/slide-logo/logo-pedigree.png';
+import logoProPlan from '../../imagens/slide-logo/logo-pro-plan.png';
+import logoGranPlus from '../../imagens/slide-logo/logo-gran-plus.png';
+import logoHills from '../../imagens/slide-logo/logo-hills.png';
+import logoOrigemNatural from '../../imagens/slide-logo/logo-origem-natural.png';
+import logoEquilibrio from '../../imagens/slide-logo/logo-equilibrio.png';
 
 export const LogoContainer2 = () => {
   return (

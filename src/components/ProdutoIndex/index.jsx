@@ -1,5 +1,5 @@
 import './styles.css';
-import product01 from '../../imgs/produto/produto1.png';
+import product01 from '../../imagens/produto/produto1.png';
 
 export const ProdutoIndex = () => {
   return (

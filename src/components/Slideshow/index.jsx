@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img01 from '../../imgs/slide-show/slide01.gif';
-import img02 from '../../imgs/slide-show/slide02.gif';
-import img03 from '../../imgs/slide-show/slide03.png';
-import img04 from '../../imgs/slide-show/slide04.png';
-import img05 from '../../imgs/slide-show/slide05.gif';
+import img01 from '../../imagens/slide-show/slide01.gif';
+import img02 from '../../imagens/slide-show/slide02.gif';
+import img03 from '../../imagens/slide-show/slide03.png';
+import img04 from '../../imagens/slide-show/slide04.png';
+import img05 from '../../imagens/slide-show/slide05.gif';
 import './styles.css';
 
-function SlidShow() {
+export const Slideshow = () => {
   return (
     <section>
       <div className="main-slide">
@@ -31,6 +31,4 @@ function SlidShow() {
       </div>
     </section>
   );
-}
-
-export default SlidShow;
+};

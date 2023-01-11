@@ -105,7 +105,7 @@ export const InsideMenu2 = () => {
           <a href="#">Cachorro</a>
         </li>
       </div>
-      <div ref={menu2Gato} className="menu2-gato" onMouseEnter={menu2GatoAbrir} onMouseLeave={menu2GatoFechar}>
+      <div ref={menu2Gato} className={'menu2-gato'} onMouseEnter={menu2GatoAbrir} onMouseLeave={menu2GatoFechar}>
         <li>
           <a href="/produto.html">Ração</a>
         </li>
@@ -119,7 +119,12 @@ export const InsideMenu2 = () => {
           <a href="#">Gato</a>
         </li>
       </div>
-      <div ref={menu2Coelho} className="menu2-coelho" onMouseEnter={menu2CoelhoAbrir} onMouseLeave={menu2CoelhoFechar}>
+      <div
+        ref={menu2Coelho}
+        className={'menu2-coelho'}
+        onMouseEnter={menu2CoelhoAbrir}
+        onMouseLeave={menu2CoelhoFechar}
+      >
         <li>
           <a href="#">Coelho</a>
         </li>
