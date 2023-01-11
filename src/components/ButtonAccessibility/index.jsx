@@ -1,9 +1,3 @@
-// import './styles.css';
-
-// export const ButtonAccessibility = ({ text }) => {
-//   <button>{text}</button>;
-// };
-
 import P from 'prop-types';
 
 import './styles.css';

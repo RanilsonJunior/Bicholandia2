@@ -1,0 +1,85 @@
+:root {
+  --Branco: #fff;
+  --Azul: #00a3b4;
+  --orangered: #ff4500;
+  --gold: #ffd700;
+}
+
+.container-buy-product {
+  margin: 1.3rem;
+  border: 1px solid #b6a9a9;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.text-option {
+  padding: 20px;
+  color: rgb(34, 34, 34);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+}
+
+.option-product {
+  padding: 0px 20px;
+}
+
+.line1 {
+  border-bottom: 1px solid #b6a9a9;
+  margin: 20px 0px;
+}
+
+.option-product .option1 {
+  color: #887c7c;
+  border: 1px solid #b6a9a9;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.option-product .option2 {
+  color: #887c7c;
+  border: 1px solid #b6a9a9;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.option-product .option3 {
+  color: #887c7c;
+  border: 1px solid #b6a9a9;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+.fa-check.active {
+  color: red;
+}
+
+.fa-check {
+  display: none;
+}
+
+.value {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.old-value {
+  color: rgb(119, 119, 119);
+  text-decoration: line-through;
+}
+
+.new-value {
+  color: rgb(85, 85, 85);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cash {
+  color: rgb(119, 119, 119);
+}
+
+
