@@ -1,0 +1,56 @@
+:root {
+    --Branco: #fff;
+    --Azul: #00a3b4;
+    --orangered: #ff4500;
+    --gold: #ffd700;
+}
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.name-product {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.06rem;
+    line-height: 1.8rem;
+}
+
+.code {
+    font-size: .9rem;
+    margin: 5px 10px;
+    color: #555555;
+}
+
+.number-star {
+    font-weight: 900;
+}
+
+.container-star {
+    margin: 15px 10px;
+}
+
+.star {
+    margin-left: 10px;
+    color: var(--gold);
+    font-size: 1.7rem;
+}
+
+.opinion {
+    color: #555555;
+    margin-left: 10px;
+    font-size: .9rem;
+}
+
+.container-information > span {
+    margin: 12px 10px;
+    font-weight: 900;
+}
+
+.container-information > ul {
+    color: #555555;
+    margin-left: 28px;
+}

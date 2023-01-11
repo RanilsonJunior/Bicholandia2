@@ -1,5 +1,9 @@
 import './styles.css';
-import product01 from '../../imagens/produto/produto1.png';
+
+import product01 from '../../images/produto/produto1.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export const ProdutoIndex = () => {
   return (
@@ -11,7 +15,9 @@ export const ProdutoIndex = () => {
           <div className="card-body">
             <div className="card-star">
               <span className="rating-value">5.0</span>
-              <span className="star">&#9733;</span>
+              <span className="star">
+                <FontAwesomeIcon icon={faStar} />
+              </span>
             </div>
             <p className="card-price">R$500,00</p>
           </div>

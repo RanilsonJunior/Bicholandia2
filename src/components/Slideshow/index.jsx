@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img01 from '../../imagens/slide-show/slide01.gif';
-import img02 from '../../imagens/slide-show/slide02.gif';
-import img03 from '../../imagens/slide-show/slide03.png';
-import img04 from '../../imagens/slide-show/slide04.png';
-import img05 from '../../imagens/slide-show/slide05.gif';
+import img01 from '../../images/slide-show/slide01.gif';
+import img02 from '../../images/slide-show/slide02.gif';
+import img03 from '../../images/slide-show/slide03.png';
+import img04 from '../../images/slide-show/slide04.png';
+import img05 from '../../images/slide-show/slide05.gif';
 import './styles.css';
 
 export const Slideshow = () => {
