@@ -1,10 +1,13 @@
 :root {
-  --Azul: #00a3b4;
-  --BrancoGelo: #eee;
+    --Branco: #fff;
+    --Azul: #00a3b4;
+    --orangered: #ff4500;
+    --gold: #ffd700;
 }
 
 .container {
-  border: 1px solid red;
+  width: 400px;
+  margin: 20px;
 }
 
 .left {
@@ -21,7 +24,7 @@
 .img_wrap {
   width: 80px;
   height: 80px;
-  border: 1px solid var(--BrancoGelo);
+  border: 1px solid #eee;
   cursor: pointer;
 }
 
@@ -31,15 +34,17 @@
   object-fit: contain;
 }
 
+
 .left_2 img {
-  width: 500px;
+  width: 250px;
   height: 100%;
   object-fit: contain;
   min-width: 60%;
-	max-width: 60%;
+  max-width: 100%;
   min-height: 60%;
-  max-height: 60%;
-  transform: translateY(50%);
+  max-height: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .active {

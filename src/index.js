@@ -10,9 +10,8 @@ import ReactDOM from 'react-dom/client';
 // import { SlideLogo } from './components/SlideLogo';
 // import { Footer } from './components/Footer';
 // import { BackToTopButton } from './components/BackToTopButton';
-// import ThumbnailSlider from './components/ThumbnailSlider';
-// import { InformacaoProduto } from './components/InformacaoProduto';
-import { ContainerProduto } from './components/ContainerProduto';
+import { CaminhoDaPagina } from './components/CaminhoDaPagina';
+import { ThumbnailContainerInformacaoJuntos } from './components/ThumbnailContainerInformacaoJuntos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,8 +23,7 @@ root.render(
     <SlideLogo />
     <Footer />
     <BackToTopButton /> */}
-    {/* <ThumbnailSlider /> */}
-    {/* <InformacaoProduto /> */}
-    <ContainerProduto />
+    <CaminhoDaPagina />
+    <ThumbnailContainerInformacaoJuntos />
   </React.StrictMode>,
 );

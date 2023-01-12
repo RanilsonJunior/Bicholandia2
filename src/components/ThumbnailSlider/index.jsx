@@ -9,7 +9,7 @@ const images = [
   '../images/produto1.png',
   '../images/produto2.png',
 ];
-function ThumbnailSlider() {
+export const ThumbnailSlider = () => {
   const [img, setImg] = useState(images[0]);
   const hoverHandler = (image, i) => {
     setImg(image);
@@ -50,6 +50,4 @@ function ThumbnailSlider() {
       <div className="right"></div>
     </div>
   );
-}
-
-export default ThumbnailSlider;
+};
